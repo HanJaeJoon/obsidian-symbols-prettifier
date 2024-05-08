@@ -1,10 +1,11 @@
 {
-	"id": "symbols-prettifier",
-	"name": "Symbols Prettifier",
-	"version": "1.1.1",
+	"id": "symbols-prettifier-jj-custom",
+	"name": "Symbols Prettifier-jj-custom",
+	"version": "1.0.0",
 	"minAppVersion": "0.9.12",
-	"description": "This plugin allows you to prettify the symbols with actual symbols you commonly type, like arrows.",
-	"author": "Florian Woelki",
-	"authorUrl": "https://florianwoelki.com",
-	"isDesktopOnly": false
+	"description": "This plugin allows you to prettify the symbols with actual symbols you commonly type, like arrows. This is a fork of FlorianWoelki's obsidian-symbols-prettifier.",
+	"author": "Jaejoon Han",
+	"authorUrl": "https://github.com/HanJaeJoon",
+	"isDesktopOnly": false,
+	"credits": "Original project by FlorianWoelki available at https://github.com/FlorianWoelki/obsidian-symbols-prettifier"
 }
