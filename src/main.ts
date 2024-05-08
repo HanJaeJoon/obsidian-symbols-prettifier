@@ -146,6 +146,7 @@ export default class SymbolsPrettifier extends Plugin {
           const replaceCharacter = characterMap[sequence];
           if (
             replaceCharacter &&
+            typeof replaceCharacter !== "function" &&
             from !== -1 &&
             !this.isCursorInCodeBlock(view.editor)
           ) {
